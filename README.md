@@ -7,7 +7,6 @@ A trustworthy public-service AI assistant depends on six connected IT fields. So
 Explore the main IT fields covered in this project:
 
 - [Project Brief](brief.md)
-- [Software and Project Overview](README.md)
 - [Networking](networking.md)
 - [Cybersecurity](cybersecurity.md)
 - [Data Management and RAG](data.md)
