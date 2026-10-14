@@ -72,4 +72,4 @@ Responsible data management helps a public-service AI assistant provide useful a
 
 1. Lewis, P. et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.* https://arxiv.org/abs/2005.11401
 2. National Institute of Standards and Technology (NIST). *Artificial Intelligence Risk Management Framework (AI RMF 1.0).* https://doi.org/10.6028/NIST.AI.100-1
-3. OWASP Foundation. *LLM06:2025 Sensitive Information Disclosure.* https://genai.owasp.org/llmrisk/llm062025-sensitive-information-disclosure/
+3. OWASP Foundation. *LLM02:2025 Sensitive Information Disclosure.* https://genai.owasp.org/llmrisk/llm022025-sensitive-information-disclosure/
