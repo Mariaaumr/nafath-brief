@@ -24,12 +24,12 @@ Resource: RFC 8200: Internet Protocol, Version 6 (IPv6) Specification - https://
 ## Cybersecurity
 Prompt injection is an attack that attempts to manipulate an AI model through instructions embedded in input. Direct injection comes from a user's prompt; indirect injection comes from untrusted content, such as a webpage or document the assistant processes. Two mitigations are least-privilege access, which limits the assistant's permissions, and human approval before sensitive actions. Input separation and testing can also help, but no single prompt design reliably prevents every attack.
 
-Resource: LLM01: Prompt Injection - https://genai.owasp.org/llmrisk2023-24/llm01-24-prompt-injection/
+Resource: OWASP Top 10 for LLM Applications 2025 — LLM01:2025 Prompt Injection - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 ## Data
 Anonymization removes identifying information so that a person can no longer reasonably be identified from the data, considering available means. Pseudonymization replaces direct identifiers with codes or other values, but additional information may allow the data to be linked back to a person. Under the GDPR, properly anonymized information falls outside its personal-data scope, whereas pseudonymized information remains personal data. Chat logs should also be minimized, access-controlled, and retained only as long as justified.
 
 Resource: General Data Protection Regulation (GDPR), Recital 26 and Article 4(5) - https://eur-lex.europa.eu/eli/reg/2016/679/oj
 ## Misconception in My Track
-A common misconception is that a strong system prompt or a keyword filter can completely prevent prompt injection. In reality, attackers may place malicious instructions in direct messages or external content that the assistant retrieves or reads. OWASP explains that prevention within the language model alone is not foolproof. The application must also restrict permissions, separate untrusted content, and require human approval for sensitive actions. The OWASP section titled “LLM01: Prompt Injection” describes these risks and mitigations.
+A common misconception is that a strong system prompt or a keyword filter can completely prevent prompt injection. In reality, attackers may place malicious instructions in direct messages or external content that the assistant retrieves or reads. OWASP explains that prevention within the language model alone is not foolproof. The application must also restrict permissions, separate untrusted content, and require human approval for sensitive actions. The OWASP section titled “LLM01:2025 Prompt Injection” describes these risks and mitigations.
 ## Open Question
 How effectively can the assistant detect indirect prompt injection hidden in official-looking service documents, while still answering citizens' legitimate questions accurately?
