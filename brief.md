@@ -30,5 +30,6 @@ Anonymization removes identifying information so that a person can no longer rea
 
 Resource: General Data Protection Regulation (GDPR), Recital 26 and Article 4(5) - https://eur-lex.europa.eu/eli/reg/2016/679/oj
 ## Misconception in My Track
-
+A common misconception is that a strong system prompt or a keyword filter can completely prevent prompt injection. In reality, attackers may place malicious instructions in direct messages or external content that the assistant retrieves or reads. OWASP explains that prevention within the language model alone is not foolproof. The application must also restrict permissions, separate untrusted content, and require human approval for sensitive actions. The OWASP section titled “LLM01: Prompt Injection” describes these risks and mitigations.
 ## Open Question
+How effectively can the assistant detect indirect prompt injection hidden in official-looking service documents, while still answering citizens' legitimate questions accurately?
