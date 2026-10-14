@@ -18,11 +18,17 @@ Apple's App Transport Security (ATS) requires network connections made through i
 
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 ## Networking
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses, providing a vastly larger address space. As more phones, sensors, servers, and other devices connect to public services, IPv6 helps address the limits of available IPv4 addresses. It also supports modern network deployment, although migration and interoperability require planning. The government service should ensure that its infrastructure, hosting provider, and security controls support the IP versions it needs.
 
+Resource: RFC 8200: Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200
 ## Cybersecurity
+Prompt injection is an attack that attempts to manipulate an AI model through instructions embedded in input. Direct injection comes from a user's prompt; indirect injection comes from untrusted content, such as a webpage or document the assistant processes. Two mitigations are least-privilege access, which limits the assistant's permissions, and human approval before sensitive actions. Input separation and testing can also help, but no single prompt design reliably prevents every attack.
 
+Resource: LLM01: Prompt Injection - https://genai.owasp.org/llmrisk2023-24/llm01-24-prompt-injection/
 ## Data
+Anonymization removes identifying information so that a person can no longer reasonably be identified from the data, considering available means. Pseudonymization replaces direct identifiers with codes or other values, but additional information may allow the data to be linked back to a person. Under the GDPR, properly anonymized information falls outside its personal-data scope, whereas pseudonymized information remains personal data. Chat logs should also be minimized, access-controlled, and retained only as long as justified.
 
+Resource: General Data Protection Regulation (GDPR), Recital 26 and Article 4(5) - https://eur-lex.europa.eu/eli/reg/2016/679/oj
 ## Misconception in My Track
 
 ## Open Question
