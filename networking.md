@@ -39,6 +39,7 @@ Potential network-related risks include:
 - Monitor network activity and investigate unusual traffic.
 - Use rate limiting and availability protections for public-facing endpoints.
 - Review IPv4 and IPv6 configurations to ensure that security controls cover both protocols where enabled.
+- Authenticate API requests and enforce authorization checks for protected backend resources.
 
 ## Conclusion
 
